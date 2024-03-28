@@ -28,7 +28,7 @@ const calcularProdutosSelecionados = (cliente) => {
 <template>
   <div>
     <Cabecalho :toggle-menu="toggleMenu" />
-    <CadastroClientes />
+    <CadastroClientes :toggle-menu="toggleMenu" :is-menu-open="isMenuOpen" />
     <CadastroProduto />
     <Associa />
     <ListagemProduto />
