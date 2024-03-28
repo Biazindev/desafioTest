@@ -1,47 +1,17 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+  <script setup>
+  import { reactive } from 'vue';
+  import Cabecalho from '/Usuario/Desktop/testDataStone/desafioTest/src/components/Cabecalho.vue';
+  import CadastroClientes from '/Usuario/Desktop/testDataStone/desafioTest/src/components/CadastroCliente.vue';
+  import CadastroProduto from '/Usuario/Desktop/testDataStone/desafioTest/src/components/CadastroProduto.vue';
+  import Associa from '/Usuario/Desktop/testDataStone/desafioTest/src/components/Associa.vue';
+  import ListagemProduto from '/Usuario/Desktop/testDataStone/desafioTest/src/components/ListagemProdutos.vue';
+  import ListagemCliente from '/Usuario/Desktop/testDataStone/desafioTest/src/components/ListagemClientes.vue';
 </script>
 
-<template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <template>
+    <h1>Ola</h1>
+  </template>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <style scoped>
 
-  <main>
-    <TheWelcome />
-  </main>
-</template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+  </style>
